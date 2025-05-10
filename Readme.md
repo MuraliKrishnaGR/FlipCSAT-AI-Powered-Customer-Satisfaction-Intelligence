@@ -4,7 +4,7 @@
 
 This end-to-end machine learning project predicts customer satisfaction outcomes from support interactions and empowers Flipkart’s managers with actionable insights. It combines data preprocessing, model training, model evaluation, Streamlit app deployment, and Gemini-powered generative responses.
 
-> 🔍 Final Project • Capstone-Level • ML + GenAI + Deployment + BI
+> 🔍 ML + GenAI + Deployment + BI
 
 ---
 
