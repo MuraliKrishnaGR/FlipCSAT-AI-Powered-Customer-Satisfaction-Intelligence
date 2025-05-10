@@ -61,6 +61,8 @@ XGBClassifier(
 
 The Power BI dashboard provides interactive visual analytics to support decision-making by Flipkart managers and analysts.
 
+![Power BI Dashboard](Screenshots/PowerBI.png)
+
 ## 💻 Streamlit App Features
 
 The deployed web application allows real-time prediction, AI-generated communication, and managerial analysis — all powered by Machine Learning and Google Gemini (GenAI).
