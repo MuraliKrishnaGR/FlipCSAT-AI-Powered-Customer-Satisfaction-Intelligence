@@ -15,8 +15,11 @@ DEFAULT_DATA_PATH = 'Customer_support_data.csv'
 ct = joblib.load('preprocessor.joblib')        # fitted ColumnTransformer
 xgb_model = joblib.load('xgb_model.joblib') # fitted XGBClassifier
 
-# Configure Gemini
-genai.configure(api_key=st.secrets['GEMINI_API_KEY'])
+api_key = "your_api_key_here"
+if api_key:  # Only configure if the key is available
+    genai.configure(api_key=api_key)
+else:
+    print("Warning: No API key provided. Some features may be disabled.")
 genai_model = genai.GenerativeModel('models/gemini-1.5-flash')
 
 @st.cache_data
