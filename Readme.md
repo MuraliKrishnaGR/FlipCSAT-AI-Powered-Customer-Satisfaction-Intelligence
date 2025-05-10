@@ -56,7 +56,7 @@ XGBClassifier(
     early_stopping_rounds=50,
     random_state=42
 )
-
+```
 ## 📊 Power BI Dashboard (External)
 
 The Power BI dashboard provides interactive visual analytics to support decision-making by Flipkart managers and analysts.
