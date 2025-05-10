@@ -95,7 +95,7 @@ To run the project on your local machine:
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
-
+```
 
 ## 🔐 Streamlit Secrets Configuration
 
@@ -111,3 +111,4 @@ smtp_server = "smtp.gmail.com"
 port = 465
 user = "your_email@gmail.com"
 password = "your_app_password"
+```
