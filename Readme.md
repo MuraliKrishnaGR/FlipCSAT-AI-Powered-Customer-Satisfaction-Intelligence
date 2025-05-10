@@ -115,9 +115,9 @@ password = "your_app_password"
 
 ### 📸 App Screenshot
 
-![Streamlit App](screenshots/streamlit_1.png)
+![Streamlit App](Screenshots/streamlit_1.png)
 
-![Streamlit App](screenshots/streamlit_2.png)
+![Streamlit App](Screenshots/streamlit_2.png)
 
-![Streamlit App](screenshots/streamlit_3.png)
+![Streamlit App](Screenshots/streamlit_3.png)
 
