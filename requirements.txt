@@ -5,8 +5,8 @@ xgboost==2.0.3
 matplotlib==3.8.4
 seaborn==0.13.2
 shap==0.44.1            # For model explainability
-transformers==4.40.1    # For BERT embeddings
-torch==2.3.0            # Needed for transformers
-google-generativeai
-joblib
-lightgbm
+transformers==4.40.1    # For NLP and BERT embeddings
+torch==2.3.0            # Required for transformers
+google-generativeai==0.4.0  # Specify version for stability
+joblib==1.5.0           # Ensure compatibility with scikit-learn
+lightgbm==4.3.0         # Include latest stable version
