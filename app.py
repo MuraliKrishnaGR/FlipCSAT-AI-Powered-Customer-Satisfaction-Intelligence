@@ -163,7 +163,7 @@ def main():
     customer_email = st.sidebar.text_input('Customer Email', key='email_inp')
 
     # 3) Prediction flow
-    pipeline = load_pipeline()
+    # pipeline = load_pipeline()
     order_id = st.sidebar.selectbox('Order ID', df['Order_id'].unique(), key='o1')
     row = df[df['Order_id']==order_id]
     if st.sidebar.button('Predict & Send Email', key='b1'):
