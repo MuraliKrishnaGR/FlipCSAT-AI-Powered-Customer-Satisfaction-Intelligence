@@ -9,14 +9,14 @@ import smtplib
 
 # Constants
 BOXCOX_LAMBDA = 2.2851  # Box‐Cox λ from training
-PIPELINE_PATH = 'rf_pipeline.joblib'
+# PIPELINE_PATH = 'rf_pipeline.joblib'
 DEFAULT_DATA_PATH = 'Customer_support_data.csv'
 # At the top of your script (or inside load functions):
 ct = joblib.load('preprocessor.joblib')        # fitted ColumnTransformer
 xgb_model = joblib.load('xgb_model.joblib') # fitted XGBClassifier
 
-# Configure Gemini
-genai.configure(api_key=st.secrets['GEMINI_API_KEY'])
+# Use a placeholder or handle missing API key
+api_key = "your_api_key_here"  
 genai_model = genai.GenerativeModel('models/gemini-1.5-flash')
 
 @st.cache_data
