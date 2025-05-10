@@ -114,7 +114,11 @@ port = 465
 user = "your_email@gmail.com"
 password = "your_app_password"
 ```
-[![View App](https://img.shields.io/badge/Live%20Demo-Streamlit-blue?logo=streamlit)](https://flipcsat-ai-powered-customer-satisfaction-intelligence-la6snf5.streamlit.app/)
+## 🚀 Live Demo
+
+👉 Click here to try the app live:  
+🔗 [FlipCSAT Streamlit App](https://flipcsat-ai-powered-customer-satisfaction-intelligence-la6snf5.streamlit.app/)
+
 
 ### 📸 App Screenshot
 
