@@ -112,3 +112,12 @@ port = 465
 user = "your_email@gmail.com"
 password = "your_app_password"
 ```
+
+### 📸 App Screenshot
+
+![Streamlit App](screenshots/streamlit_1.png)
+
+![Streamlit App](screenshots/streamlit_2.png)
+
+![Streamlit App](screenshots/streamlit_3.png)
+
