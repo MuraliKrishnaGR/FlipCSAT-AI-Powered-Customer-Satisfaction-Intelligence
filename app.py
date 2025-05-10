@@ -15,11 +15,16 @@ DEFAULT_DATA_PATH = 'Customer_support_data.csv'
 ct = joblib.load('preprocessor.joblib')        # fitted ColumnTransformer
 xgb_model = joblib.load('xgb_model.joblib') # fitted XGBClassifier
 
+
+# # Configure Gemini
+# genai.configure(api_key=st.secrets['GEMINI_API_KEY'])
+
 api_key = "your_api_key_here"
 if api_key:  # Only configure if the key is available
     genai.configure(api_key=api_key)
 else:
     print("Warning: No API key provided. Some features may be disabled.")
+    
 genai_model = genai.GenerativeModel('models/gemini-1.5-flash')
 
 @st.cache_data
@@ -119,9 +124,9 @@ def preprocess_df(df: pd.DataFrame) -> pd.DataFrame:
 
     return df
 
-@st.cache_resource
-def load_pipeline():
-    return joblib.load(PIPELINE_PATH)
+# @st.cache_resource
+# def load_pipeline():
+#     return joblib.load(PIPELINE_PATH)
 
 @st.cache_data
 def generate_response(inputs: dict, prediction: int) -> str:
