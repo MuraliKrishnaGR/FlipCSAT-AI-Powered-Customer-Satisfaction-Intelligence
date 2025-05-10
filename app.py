@@ -8,7 +8,7 @@ from datetime import datetime
 import smtplib
 
 # Constants
-BOXCOX_LAMBDA = 2.2851  # Box‐Cox λ from training
+BOXCOX_LAMBDA = 2.0550  # Box‐Cox λ from training
 # PIPELINE_PATH = 'rf_pipeline.joblib'
 DEFAULT_DATA_PATH = 'Customer_support_data.csv'
 # At the top of your script (or inside load functions):
